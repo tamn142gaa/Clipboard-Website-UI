@@ -631,6 +631,10 @@ h5 {
   margin-bottom: 1.5rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -687,6 +691,11 @@ h5 {
 .bg-strongCyan {
   --tw-bg-opacity: 1;
   background-color: hsl(171 66% 44% / var(--tw-bg-opacity));
+}
+
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
 .px-10 {
