@@ -598,6 +598,20 @@ h3 {
   padding-top: 4rem;
 }
 
+/* Custom CSS */
+
+body {
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: container;
+}
+
+@media (max-with: 576px) : {
+  body {
+    background-image: url("../images/bg-header-mobile.png");
+  }
+}
+
 /* Adding Directives */
 
 .section-container {

@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom CSS */
+body {
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: container;
+}
+
+@media (max-with: 576px) : {
+  body {
+    background-image: url("../images/bg-header-mobile.png");
+  }
+}
+
 /* Adding Directives */
 .section-container {
   @apply max-w-6xl mx-auto px-10 text-center;
