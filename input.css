@@ -15,6 +15,11 @@ body {
   }
 }
 
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
+}
+
 /* Adding Directives */
 .section-container {
   @apply max-w-6xl mx-auto px-10 text-center;
