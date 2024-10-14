@@ -1,0 +1,15 @@
+{
+  "name": "sample-tailwind-starter",
+  "version": "1.0.0",
+  "description": "simple tailwind start folder",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind -i ./input.css -o ./css/style.css",
+    "watch": "tailwind -i ./input.css -o ./css/style.css --watch"
+  },
+  "author": "tamn142gaa",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
